@@ -19,4 +19,6 @@ jobs:
           java-version: 17
           cache: gradle
 
+      - uses: actions/checkout@v2
+
       - run: ./gradlew check
